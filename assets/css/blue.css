@@ -496,7 +496,7 @@ header
 }
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 27px;
+  margin-top: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -807,7 +807,7 @@ header
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 }
 .header-area.header-sticky .logo {
-  margin-top: 22px;
+  margin-top: 5px;
 }
 .header-area.header-sticky .nav {
   margin-top: 21px !important;
@@ -1234,7 +1234,7 @@ features
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5;
-  padding: 40px 30px;
+  padding: 40px 25px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2074,8 +2074,11 @@ footer img.logo {
   max-width: 80px;
   height: 45px;
 }
+
+/* #050a30;
+#ff781c; */
 .middle-footer{
- padding-left: 13%;
+ padding-left: 14%;
 }
 .last-footer{
   padding-left: 11%;
