@@ -2963,6 +2963,14 @@ contact
 .job-openings .apply-wrapper .apply-left {
   max-width: 85%;
 }
+@media(max-width: 991px){
+  .job-openings .apply-wrapper .apply-left {
+    max-width: 100%;
+  }
+  .job-openings .apply-wrapper .apply-right {
+    width: 100%;
+  }
+}
 .job-openings .apply-wrapper .apply-left h5 {
   color: #050a30;
   font-weight: bold;
@@ -3006,6 +3014,11 @@ contact
   padding: 20px;
   max-width: 70%;
   margin: 0 auto;
+}
+@media(max-width: 767px){
+  .apply-form-wrapper .apply-form{
+    max-width: 100%;
+  }
 }
 .apply-form-wrapper .apply-form input[type="text"],
 input[type="email"] {
