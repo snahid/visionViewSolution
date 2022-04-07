@@ -2866,6 +2866,11 @@ contact
   letter-spacing: 0.6px;
   line-height: 26px;
 }
+@media(max-width: 767px){
+  .contact-bottom .contact-text{
+    margin-bottom: 30px;
+  }
+}
 .contact-bottom .contact-text p {
   margin-bottom: 28px;
 }
