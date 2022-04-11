@@ -799,7 +799,7 @@ header
 .header-area .main-nav .header-buttons li .btn-nav-line {
   padding-left: 25px;
   padding-right: 25px;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -848,7 +848,7 @@ header
 }
 .about-header-buttons li .btn-nav-line:hover {
   color: #ffffff !important;
-  background-color: #3b566e !important;
+  background-color: #050a30 !important;
 }
 .header-area .main-nav .header-buttons li .btn-nav-primary {
   padding-left: 25px;
@@ -893,8 +893,8 @@ header
   z-index: 2;
 }
 .header-area .main-nav .header-buttons li .btn-nav-primary:hover {
-  border: 1px solid #4f42d2;
-  background: #4f42d2;
+  /* border: 1px solid #4f42d2;
+  background: #4f42d2; */
   color: #fff;
 }
 .header-area.header-sticky {
@@ -927,7 +927,7 @@ header
   float: left;
 }
 .header-area.header-sticky .header-buttons li .btn-nav-line {
-  border: 2px solid #050a30;
+  border: 1px solid #050a30;
   color: #050a30;
   margin-top: 24px;
 }
