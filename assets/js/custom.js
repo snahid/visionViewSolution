@@ -113,15 +113,28 @@
 				// Home Parallax
 				if($('#parallax-text').length){
 					$('#parallax-text').parallax({
-						imageSrc: 'assets/images/photos/parallax-counter.jpg',
+						imageSrc: 'assets/images/photos/Get-in-Touch.jpg',
+						zIndex: '1'
+					});
+				}
+				if($('.payroll-service').length){
+					$('.payroll-service').parallax({
+						imageSrc: 'assets/images/photos/Payroll-Services.jpg',
 						zIndex: '1'
 					});
 				}
 
 				// Home Parallax Counter
-				if($('#counter').length){
-					$('#counter').parallax({
+				if($('.home-counter').length){
+					$('.home-counter').parallax({
 						imageSrc: 'assets/images/photos/parallax-counter.jpg',
+						zIndex: '1'
+					});
+				}
+
+				if($('.it-staffing').length){
+					$('.it-staffing').parallax({
+						imageSrc: 'assets/images/photos/IT-staffing.jpg',
 						zIndex: '1'
 					});
 				}
